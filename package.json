@@ -12,6 +12,9 @@
     "coverage": "gulp coverage",
     "build": "gulp"
   },
+  "overrides": {
+    "graceful-fs": "^4.2.11"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/bitpay/bitcore-ecies.git"
@@ -40,6 +43,6 @@
   },
   "dependencies": {
     "aes": "^0.1.0",
-    "bitcore-lib": "^0.14.0"
+    "bitcore-lib": "^10.0.28"
   }
 }
